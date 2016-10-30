@@ -87,10 +87,21 @@ body {
 
 .about-header {
   font-size: 1.8em;
-  color: #aaa;
+  color: #ccc;
 }
 
 .about-body {
-  color: #aaa;
+  color: #ccc;
   height: 100%;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  background-color: #2a2a2a;
+  border-color: #2a2a2a;
+}
+
+.jumbotron {
+    color: #ccc;
 }
