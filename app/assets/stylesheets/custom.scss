@@ -43,8 +43,8 @@ body {
 }
 
 .col-centered{
-    float: none;
-    margin: 0 auto;
+  float: none;
+  margin: 0 auto;
 }
 
 .navbar-brand {
@@ -82,15 +82,18 @@ body {
 /* about */
 
 .about {
-  padding: 20px;
+
+
 }
 
 .about-header {
+  padding: 10px 25px 0px 25px;
   font-size: 1.8em;
   color: #ccc;
 }
 
 .about-body {
+  padding: 0px 25px;
   color: #ccc;
   height: 100%;
 }
@@ -103,7 +106,7 @@ body {
 }
 
 .jumbotron {
-    color: #ccc;
+  color: #ccc;
 }
 
 .btn-jumbotron {
