@@ -51,8 +51,8 @@ body {
   padding: 0px;
 }
 
-.navbar-brand>img {
-  height: 100%;
+.brand > img {
+  height: 55px;
   padding: 10px;
   width: auto;
 }
@@ -67,4 +67,30 @@ body {
 
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: #1685BC;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* about */
+
+.about {
+  padding: 20px;
+}
+
+.about-header {
+  font-size: 1.8em;
+  color: #aaa;
+}
+
+.about-body {
+  color: #aaa;
+  height: 100%;
 }
