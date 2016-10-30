@@ -1,15 +1,6 @@
-
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Chris Witman</a>
-    </div>
-  </div><!-- /.container-fluid -->
-</nav>
 <div class="row">
-  <div class="col-xs-1 col-sm-2 col-md-3"></div>
-  <div class="col-xs-10 col-sm-8 col-md-6">
+  <!-- <div class="col-lg-3 col-sm-2 col-sm-1"></div> -->
+  <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 col-centered col-no-pad">
     <% for i in 1..48 do %>
       <div class="card">
         <header>
@@ -17,11 +8,10 @@
             <p class="file"><%= i.to_s + ".jpg" %></p>
           </div>
         </header>
-
         <%= image_tag(i.to_s + ".jpg", :alt => "painting", class: "max") %>
         <div class="comments">0 Likes &nbsp;&nbsp;&nbsp; 0 Comments</div>
       </div>
     <% end %>
   </div>
-  <div class="col-xs-1 col-sm-2 col-md-3"></div>
+  <!-- <div class="col-lg-3 col-sm-2 col-sm-1"></div> -->
 </div>

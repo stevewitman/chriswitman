@@ -5,12 +5,6 @@ body {
   background-image: image-url("bg.jpg");
   background-repeat: repeat;
   margin-top: 50px;
-
-}
-
-/* bootstrap modifications */
-.navbar-brand {
-  padding: 15px 35px;
 }
 
 /* custom classses */
@@ -42,4 +36,13 @@ body {
 .file {
   padding: 10px 20px 0px 10px;
   color: #393;
+}
+
+.col-no-pad {
+  padding: 0px
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
 }
