@@ -7,63 +7,21 @@
     </div>
   </div><!-- /.container-fluid -->
 </nav>
-<h1>Chris Witman</h1>
 <div class="row">
-  <div class="col-sm-2 col-md-3"></div>
-  <div class="col-sm-8 col-md-6">
-<%= image_tag("01.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("02.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("03.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("04.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("05.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("06.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("07.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("08.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("09.jpg", :alt => "painting", class: "max") %>
+  <div class="col-xs-1 col-sm-2 col-md-3"></div>
+  <div class="col-xs-10 col-sm-8 col-md-6">
+    <% for i in 1..48 do %>
+      <div class="card">
+        <header>
+          <div class="card-header">
+            <p class="file"><%= i.to_s + ".jpg" %></p>
+          </div>
+        </header>
 
-<%= image_tag("10.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("11.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("12.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("13.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("14.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("15.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("16.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("17.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("18.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("19.jpg", :alt => "painting", class: "max") %>
-
-<%= image_tag("20.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("21.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("22.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("23.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("24.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("25.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("26.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("27.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("28.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("29.jpg", :alt => "painting", class: "max") %>
-
-<%= image_tag("30.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("31.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("32.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("33.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("34.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("35.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("36.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("37.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("38.jpg", :alt => "painting", class: "max") %>
-<!-- <%= image_tag("39.jpg", :alt => "painting") %> -->
-
-<%= image_tag("40.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("41.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("42.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("43.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("44.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("45.jpg", :alt => "painting", class: "max") %>
-<!-- <%= image_tag("46.jpg", :alt => "painting") %> -->
-<%= image_tag("47.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("48.jpg", :alt => "painting", class: "max") %>
-<%= image_tag("49.jpg", :alt => "painting", class: "max") %>
-.col-md-4</div>
-<div class="col-sm-2 col-md-3"></div>
+        <%= image_tag(i.to_s + ".jpg", :alt => "painting", class: "max") %>
+        <div class="comments">0 Likes &nbsp;&nbsp;&nbsp; 0 Comments</div>
+      </div>
+    <% end %>
+  </div>
+  <div class="col-xs-1 col-sm-2 col-md-3"></div>
 </div>

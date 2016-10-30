@@ -2,26 +2,44 @@
 @import "bootstrap";
 
 body {
-  background-image: url("bg.jpg");
+  background-image: image-url("bg.jpg");
   background-repeat: repeat;
+  margin-top: 50px;
 
 }
 
-/* img {
-  height: 500px;
-    padding: 10px;
+/* bootstrap modifications */
+.navbar-brand {
+  padding: 15px 35px;
 }
- */
+
+/* custom classses */
+
 .max {
-    /* position: fixed; */
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
-    overflow: auto;
-    padding: 15px;
+  /* position: fixed; */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  overflow: auto;
+}
+
+.card {
+  background: #2a2a2a;
+  margin: 30px 0px;
+}
+
+.comments {
+  font-size: 0.8em;
+  padding: 10px;
+  color: #707070;
+}
+
+.file {
+  padding: 10px 20px 0px 10px;
+  color: #393;
 }
